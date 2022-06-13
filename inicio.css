@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
     
@@ -13,7 +14,9 @@
     
 }
 
-body {background-color: white;}
+html {height: 100%; min-height: 100%;}
+
+body {background-color: white; display: flex; flex-direction: column; min-height: 100%;}
 
     .cabecalho{
         
@@ -117,18 +120,68 @@ body {background-color: white;}
         cursor: pointer;
         transition-duration: .5s;
         /*text-decoration: underline;
-        font-size: 115%;
+        font-size: 115%;*/
 
     }
 
+.corpo{font-family: 'Roboto', sans-serif;}
 
 
+.title-desc{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
 
 
+.title-desc-h1{
 
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 
+}
 
+.lista{
+    
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
-.corpo{}
+}
+
+.lista-ol{}
+.lista-ol-li{
+
+    padding: 5px;
+
+}
+
+footer {
+
+    margin-top: auto; 
+    padding: 20px; 
+    background-color: black; 
+    color: white; 
+    text-transform: uppercase; 
+    font-family: 'Anek Malayalam', sans-serif;
+    
+}
+
+.footer-aviso{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
 
 
